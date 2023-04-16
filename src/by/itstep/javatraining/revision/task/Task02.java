@@ -37,21 +37,70 @@ package by.itstep.javatraining.revision.task;
 
 public class Task02 {
     public static String task02(int number) {
-        return "error";
+
+        if (number < 0) {
+            return "error";
+        }
+
+        String min_str;
+        String sec_str;
+
+
+        int hour = number / 3600;
+        number = number - (hour * 3600);
+        int min = number / 60;
+        number = number - (min * 60);
+
+
+        min_str = (min < 10) ? "0" + min : String.valueOf(min);
+        sec_str = (number < 10) ? "0" + number : String.valueOf(number);
+
+
+        if (hour > 24) {
+            hour = hour - 24;
+        }
+
+        String time = hour + ":" + min_str + ":" + sec_str;
+        ;
+
+
+        return time;
+
+
     }
 
 
-    public static void main(String[] args) {
-        int sec = 129700;
+   /* public static void main(String[] args) {
+        int sec = 3661;
+        String min_str;
+        String sec_str;
 
-        int hour = sec/3600;
-        System.out.println(hour);
+        int hour = sec / 3600;
+        sec = sec - (hour * 3600);
+        int min = sec / 60;
+        if (min < 9) {
+            min_str = "0" + min;
+        }else {
+             min_str = String.valueOf(min);
+        }
+        sec = sec - (min * 60);
+        if (sec < 9) {
+             sec_str = "0" + sec;
+        }else {
+             sec_str = String.valueOf(sec);
+        }
 
-        hour = 3600 % hour;
-        System.out.println(hour);
 
-      /*  sec = sec - hour - min;
-        System.out.println(sec);*/
 
-    }
+        if (hour > 24) {
+            hour = hour - 24;
+        }
+
+        String time =  hour + ":" + min_str + ":" + sec_str;;
+
+
+
+        System.out.println(time);
+
+    }*/
 }

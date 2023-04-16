@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb67809b-3372-423a-960c-ac333159325f" name="Changes" comment="" />
+    <list default="true" id="eb67809b-3372-423a-960c-ac333159325f" name="Changes" comment="Done">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentJavaRevisionTask04Project/by/itstep/javatraining/revision/task/Task02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentJavaRevisionTask04Project/by/itstep/javatraining/revision/task/Task02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task02.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/test/TaskTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/test/TaskTester.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,7 +31,20 @@
     &quot;last_opened_file_path&quot;: &quot;/Users/gisa/Downloads/StudentJavaRevisionTask04Project-master&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.itstep.javatraining.revision.controller.Main" />
+      <module name="StudentJavaRevisionTask04Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itstep.javatraining.revision.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.itstep.javatraining.revision.task.Task02" />
       <module name="StudentJavaRevisionTask04Project" />
@@ -42,6 +60,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Task02" />
       </list>
     </recent_temporary>
@@ -67,5 +86,20 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Done" />
+    <option name="LAST_COMMIT_MESSAGE" value="Done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/itstep/javatraining/revision/test/TaskTester.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

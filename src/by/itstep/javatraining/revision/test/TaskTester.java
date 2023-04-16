@@ -55,7 +55,7 @@ public class TaskTester {
         boolean result = Task02.task02(0).trim().equalsIgnoreCase("0:00:00")
                 && Task02.task02(3602).trim().equalsIgnoreCase("1:00:02")
                 && Task02.task02(86399).trim().equalsIgnoreCase("23:59:59")
-                && Task02.task02(129700).trim().equalsIgnoreCase("12:01:40")
+                && Task02.task02(129700).trim().equalsIgnoreCase("12:01:40")//
                 && Task02.task02(1).trim().equalsIgnoreCase("0:00:01")
                 && Task02.task02(3600).trim().equalsIgnoreCase("1:00:00")
                 && Task02.task02(60).trim().equalsIgnoreCase("0:01:00")
