@@ -36,6 +36,49 @@ package by.itstep.javatraining.revision.task;
 
 public class Task03 {
     public static int task03(int n, int m, int x, int y) {
-        return -1;
+/*
+        if (n<0 || m <0 || x < 0 || y < 0){
+            return -1;
+        }
+
+        int bortVerh = Math.min(y, m - y);
+        int bortNiz = Math.min(m - y, y);
+
+        int leftBort = Math.min(x, n - x);
+        int rightBort = Math.min(n - x, x);
+
+        System.out.println("ok");
+
+       return Math.min(Math.min(bortVerh,bortNiz), Math.min(leftBort,rightBort));*/
+
+        // Проверка на корректность входных данных
+        if (n <= 0 || m <= 0 || x < 0 || y < 0 || x > n || y > m) {
+            return -1;
+        }
+
+
+        return 0;
     }
+
+
 }
+
+
+   /* public static void main(String[] args) {
+        int n = 14;
+        int m = 7;
+        int x = 6;
+        int y = 11;
+
+        int bortVerh = Math.min(y, m - y);
+        int bortNiz = Math.min(m - y, y);
+
+        int leftBort = Math.min(x, n - x);
+        int rightBort = Math.min(n - x, x);
+
+        int minRost = Math.min(Math.min(bortVerh,bortNiz), Math.min(leftBort,rightBort));
+
+        System.out.println(minRost);
+    }*/
+
+

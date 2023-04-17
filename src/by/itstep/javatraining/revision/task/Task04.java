@@ -21,8 +21,18 @@ package by.itstep.javatraining.revision.task;
  *	[output 3]: 4 7 7
  */
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 public class Task04 {
     public static String task04(int a, int b, int c) {
-        return "";
+
+
+        int[] array = {a, b, c};
+        Arrays.sort(array);
+        String result = array[0] + " " + array[1] + " " + array[2];
+        return result;
     }
+
+
 }
