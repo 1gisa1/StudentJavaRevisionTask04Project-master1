@@ -33,8 +33,73 @@ package by.itstep.javatraining.revision.task;
  *	[output 4]: false
  */
 
+import java.util.*;
+import java.util.stream.Collectors;
+
 public class Task05 {
     public static boolean task05(int x, int y, int z, int a, int b, int c) {
-        return false;
+
+        boolean vlezla = false;
+        int pig[] = {x, y, z};
+        int truck[] = {a, b, c};
+
+
+        Arrays.sort(pig);
+        Arrays.sort(truck);
+
+
+        if (x <= 0 || y <= 0 || z <= 0 || a <= 0 || b <= 0 || c <= 0) {
+            vlezla = false;
+        } else if (pig[0] <= truck[0] && pig[1] <= truck[1] && pig[2] <= truck[2]) {
+            vlezla = true;
+        } else {
+            vlezla = false;
+        }
+
+
+
+
+        return vlezla;
+    }
+
+
+    public static void main(String[] args) {
+
+        int x = 0;
+        int y = 5;
+        int z = 5;
+
+        int a = 2;
+        int b = 3;
+        int c = 4;
+
+
+        int pig[] = {x, y, z};
+        int truck[] = {a, b, c};
+
+
+        Arrays.sort(pig);
+        Arrays.sort(truck);
+
+/*        for (int i = 0; i < pig.length; i++) {
+            System.out.print(pig[i]);
+        }
+
+        System.out.println();
+
+        for (int i = 0; i < truck.length; i++) {
+            System.out.print(truck[i]);
+        }*/
+
+        System.out.println();
+
+        boolean vlezla = false;
+
+        if (pig[0] <= truck[0] && pig[1] <= truck[1] && pig[2] <= truck[2]) {
+            vlezla = true;
+        } else {
+            vlezla = false;
+        }
+        System.out.println(vlezla);
     }
 }

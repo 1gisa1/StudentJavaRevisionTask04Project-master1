@@ -48,6 +48,22 @@ package by.itstep.javatraining.revision.task;
 
 public class Task06 {
     public static String task06(int a1, int b1, int c1, int a2, int b2, int c2) {
-        return "Error";
+
+        int d1 = a1 + b1 + c1;
+        int d2 = a2 + b2 + c2;
+
+        if (a1 <= 0 || b1 <= 0 || c1 <= 0 || a2 <= 0 || b2 <= 0 || c2 <= 0) {
+            return "Error.";
+        } else if (d1 > 15 && d2 > 15) {
+            return "Boxes are incomparable.";
+        } else if (d1 == d2) {
+            return "Boxes are equal.";
+        } else if (d1 > d2) {
+            return "The first box is larger than the second one.";
+        } else if (d1 < d2) {
+            return "The first box is smaller than the second one.";
+        } else {
+            return "Error";
+        }
     }
 }

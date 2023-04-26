@@ -3,9 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="eb67809b-3372-423a-960c-ac333159325f" name="Changes" comment="Done">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task02.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task02.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task03.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task03.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task04.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentJavaRevisionTask04Project/by/itstep/javatraining/revision/task/Task02.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentJavaRevisionTask04Project/by/itstep/javatraining/revision/task/Task02.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentJavaRevisionTask04Project/by/itstep/javatraining/revision/task/Task03.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentJavaRevisionTask04Project/by/itstep/javatraining/revision/task/Task03.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/StudentJavaRevisionTask04Project/by/itstep/javatraining/revision/task/Task04.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/StudentJavaRevisionTask04Project/by/itstep/javatraining/revision/task/Task04.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task05.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task05.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task06.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task06.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task07.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task07.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/test/TaskTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/by/itstep/javatraining/revision/test/TaskTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,19 +49,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Task02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="by.itstep.javatraining.revision.task.Task02" />
-      <module name="StudentJavaRevisionTask04Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="by.itstep.javatraining.revision.task.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Task03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="by.itstep.javatraining.revision.task.Task03" />
       <module name="StudentJavaRevisionTask04Project" />
@@ -84,12 +75,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Task05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.itstep.javatraining.revision.task.Task05" />
+      <module name="StudentJavaRevisionTask04Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itstep.javatraining.revision.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task07" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="by.itstep.javatraining.revision.task.Task07" />
+      <module name="StudentJavaRevisionTask04Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="by.itstep.javatraining.revision.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Task07" />
+        <item itemvalue="Application.Task05" />
         <item itemvalue="Application.Task04" />
         <item itemvalue="Application.Task03" />
-        <item itemvalue="Application.Task02" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681673636618</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Done">
+      <created>1681736836061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1681736836061</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,5 +151,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Done" />
     <option name="LAST_COMMIT_MESSAGE" value="Done" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task07.java</url>
+          <line>71</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/by/itstep/javatraining/revision/test/TaskTester.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/by/itstep/javatraining/revision/task/Task07.java</url>
+          <line>39</line>
+          <properties class="by.itstep.javatraining.revision.task.Task07" method="task07">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
